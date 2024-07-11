@@ -1,9 +1,24 @@
+:root{
+    --primary-color:rgb(12, 12, 12);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    font-size: 14px;
+}
+
 .card-container{
+display: grid;
 
 }
 
 .card{
-
+background-color: var(--primary-color);
 }
 
 .card-link{
